@@ -1,0 +1,10 @@
+function PostCard({ post }) {
+  return (
+    <div>
+      <h2>{post.title}</h2>
+      <p>{post.content.substring(0, 100)}...</p>
+    </div>
+  );
+}
+
+export default PostCard;
